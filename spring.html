@@ -1,0 +1,145 @@
+<style>
+ 
+ *{
+   margin:0;
+   padding:0;
+   
+ }
+ 
+ body{
+ display:flex;
+ justify-content: Center;
+ align-items: center;
+ min-height: 100vh;
+ background: #000;
+ }
+ 
+ .loader {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style:preserve-3d;
+  transform: perspective(500px) rotateX(60deg);
+ }
+ 
+ @keyframes animate{
+    0%,100%
+    {
+      transform:translateZ(-100px);
+    }
+    50%
+    {
+      transform:translateZ(100px);
+    }
+      
+ }
+ 
+ .loader span{
+   position: absolute;
+   display: block;
+   border:5px solid #fff;
+    box-shadow: 0 5px 0 #ccc, inset 0 5px 0 #ccc;
+    box-sizing: border-box;
+    border-radius:50%;
+    animation: animate 2s ease-in-out infinite;
+ }
+ 
+  .loader span:nth-child(1){
+   top:0;
+   left:0;
+   bottom:0;
+   right:0;
+   animation-delay:0.65s;
+ }
+ 
+   .loader span:nth-child(2){
+   top:10;
+   left:10;
+   bottom:10;
+   right:10;
+   animation-delay:0.6s;
+ }
+  
+   .loader span:nth-child(3){
+   top:30;
+   left:30;
+   bottom:30;
+   right:30;
+   animation-delay:0.5s;
+ }
+ 
+    .loader span:nth-child(4){
+   top:40;
+   left:40;
+   bottom:40;
+   right:40;
+   animation-delay:0.45s;
+ }
+ 
+     .loader span:nth-child(5){
+   top:60;
+   left:60;
+   bottom:60;
+   right:60;
+   animation-delay:0.4s;
+ }
+ 
+     .loader span:nth-child(6){
+   top:70;
+   left:70;
+   bottom:70;
+   right:70;
+   animation-delay:0.35s;
+ }
+ 
+ 
+    .loader span:nth-child(7){
+   top:90;
+   left:90;
+   bottom:90;
+   right:90;
+   animation-delay:0.3s;
+ }
+ 
+    .loader span:nth-child(8){
+   top:100;
+   left:100;
+   bottom:100;
+   right:100;
+   animation-delay:0.25s;
+ }
+ 
+  .loader span:nth-child(9){
+   top:120;
+   left:120;
+   bottom:120;
+   right:120;
+   animation-delay:0.2s;
+ }
+ 
+  .loader span:nth-child(10){
+   top:140;
+   left:140;
+   bottom:140;
+   right:140;
+   animation-delay:0.1s;
+ }
+ 
+</style>
+
+<div class = 'loader'>
+  
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  
+</div>
