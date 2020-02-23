@@ -41,6 +41,29 @@ hr {
   color: #ffffff;
   display: block;
 }
+#con-details {
+    color: #050505;
+    text-decoration-color: #070707 ;
+    text-align: end;
+}
+
+#Contact{
+    border: #9c9b9b;
+    border-style: solid;
+    color: #131212;
+    align-content: center;   
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+#contact-bg {
+    background-image: url("images/contact.jpg");
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    align-content: center; 
+    align-items: center; 
+}
 
 #topic {
     color: #c7c7c7

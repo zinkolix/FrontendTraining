@@ -1,0 +1,73 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  line-height: 24px;
+  font-weight: 500;
+  overflow-x: hidden !important;
+  text-align: left;
+  position: relative;
+  color: #999999;
+  opacity: 0.9;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "roboto", sans-serif;
+  color: white;
+}
+
+p {
+  opacity: 0.9;
+}
+
+
+
+span {
+  background-color: #0bceaf;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  color: white;
+}
+
+
+/** 
+ * -----------------
+ * Social Icon Style
+ * -----------------
+ */
+ .social-icon {
+  display: inline-block;
+}
+
+.social-icon li {
+  list-style: none;
+  float: left;
+  margin-bottom: 0px;
+  margin-right: 8px;
+}
+
+.social-icon li a {
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.social-icon li:last-child a {
+  margin-right: 0px;
+}
