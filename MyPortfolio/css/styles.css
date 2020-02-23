@@ -9,7 +9,7 @@ body {
   position: relative;
   color: #999999;
   opacity: 0.9;
-  background-color: black;
+  background-color: rgb(2, 0, 8);
 }
 
 h1,
@@ -18,7 +18,8 @@ h3,
 h4,
 h5,
 h6,
-a {
+a,
+p {
   font-family: "roboto", sans-serif;
   color: white;
 }
@@ -29,7 +30,7 @@ p {
 
 
 
-span {
+.os-promo {
   background-color: #0bceaf;
   font-size: 14px;
   line-height: 24px;
@@ -70,4 +71,62 @@ span {
 
 .social-icon li:last-child a {
   margin-right: 0px;
+}
+
+.dev-img {
+  height: 400px;
+  width: 400px;
+  /* border: 20px solid rgba(206, 21, 21, 0.07); */
+  margin: 0 auto;
+  border-radius: 50%;
+  border-width: 10px;
+}
+
+.img-border{
+  /* border-width: 10px; */
+  border: 20px solid rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 575px) {
+  .xs-column-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+/* .vertical-middle-content {
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+} */
+
+.section-separator {
+  padding: 60px 0;
+  padding-top: 100px;
+}
+
+.os-about-me-tag ul li{
+  display: inline-block;
+  margin: 5px;
+  
 }
